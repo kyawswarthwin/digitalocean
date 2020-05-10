@@ -1,9 +1,10 @@
 
+
 ## VestaCP နှင့် WordPress သွင်းနည်း
 
 **(၁) VestaCP သွင်းရန်**
 
-    sudo su
+    sudo -i
     curl -O http://vestacp.com/pub/vst-install.sh
     bash vst-install.sh --force
 
