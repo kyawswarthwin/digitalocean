@@ -4,15 +4,15 @@
 
 **User အသစ်ထည့်ပါ**
 
-    adduser kyawswarthwin
+    adduser sandar
     
 **အသစ်ထည့်ထားသော User အား sudo အုပ်စုထဲသို့ ထည့်ပါ**
 
-    usermod -aG sudo kyawswarthwin
+    usermod -aG sudo sandar
 
 **root အောက်မှ SSH Key အား အသစ်ထည့်ထားသော User အောက်သို့ ကူးထည့်ပါ**
 
-    rsync --archive --chown=kyawswarthwin:kyawswarthwin ~/.ssh /home/kyawswarthwin
+    rsync --archive --chown=sandar:sandar ~/.ssh /home/sandar
 
 **sshd_config ဖိုင်အား nano ဖြင့် ဖွင့်ပီး
 PermitRootLogin no
